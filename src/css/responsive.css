@@ -1,0 +1,33 @@
+@media(max-width:620px) {
+    .main-content {
+        padding: 0 15px;
+        gap: 10px
+    }
+
+    .btn{
+        width: 20px;
+        height: 20px;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pokemon-list{
+        height: 480px;
+    }
+
+    .pokemon-card .pokemon-image{
+        max-width: 30px;
+    }
+
+    .pokemon-card .pokmeon-info .pokemon-name{
+        max-width: 50%;
+        font-size: 18px;
+    }
+
+    .pokemon-card .pokmeon-info .pokemon-life{
+        font-size: 14px;
+    }
+}
+
