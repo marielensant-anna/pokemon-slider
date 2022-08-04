@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projeto Pokémon</title>
+
+    <link rel="shortcut icon" href="./src/imagens/pokebola.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+</head>
+<body>
+    <header class="header">
+        <img class="pokebola" src="./src/imagens/pokebola.png" alt="Imagem de uma pokebola">
+        <h1 class="title-header">Pokemon Slider</h1>
+    </header>
+    
+
+    <main class="main-content">
+        <button class="btn btn-back" id="btn-return">
+            <img src="./src/imagens/seta.png" alt="Seta para voltar">
+        </button>
+
+        <ul class="pokemons-list">
+            <li class="pokemon-card selected background-1">
+                <div class="pokemon-info">
+                    <h2 class="pokemon-name">Pikachu</h2>
+                    <p class="pokemon-life">HP 300</p>
+                </div>
+
+                <div class="container-image">
+                    <img class="pokemon-image" src="./src/imagens/pikachu.png" alt="Imagem do Pikachu">
+                </div>
+
+                <div class="container-description">
+                    <h3 class="title-description">Desccrição</h3>
+                    <p class="text-description">Pikachu pode gerar eletricidade poderosa. Tem bolsas nas bochechas que são extra macias e super elásticas.</p>
+                </div>
+            </li>
+
+            <li class="pokemon-card background-2">
+                <div class="pokemon-info">
+                    <h2 class="pokemon-name">Charizard</h2>
+                    <p class="pokemon-life">HP 800</p>
+                </div>
+
+                <div class="container-image">
+                    <img class="pokemon-image" src="./src/imagens/charizard.png" alt="Imagem do Charizard">
+                </div>
+
+                <div class="container-description">
+                    <h3 class="title-description">Desccrição</h3>
+                    <p class="text-description">Ele cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar incêndios florestais soprando chamas.</p>
+                </div>
+            </li>
+
+            <li class="pokemon-card background-3">
+                <div class="pokemon-info">
+                    <h2 class="pokemon-name">Mewtwo</h2>
+                    <p class="pokemon-life">HP 1200</p>
+                </div>
+
+            <div class="container-image">
+                <img class="pokemon-image" src="./src/imagens/mewtwo.png" alt="Imagem do Mewtwo">
+            </div>
+
+            <div class="container-description">
+                <h3 class="title-description">Desccrição</h3>
+                <p class="text-description">Seu DNA é quase o mesmo que o de Mew. No entanto, seu tamanho e disposição são muito diferentes.</p>
+            </div></li>
+        </ul>
+
+        <button class="btn" id="btn-advance">
+            <img src="./src/imagens/seta.png" alt="Seta para avançar">
+        </button>
+        
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
