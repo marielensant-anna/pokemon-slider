@@ -18,7 +18,7 @@
     }
 
     .pokemon-card .pokemon-image{
-        max-width: 300px;
+        max-height: 230px;
     }
 
     .pokemon-card .pokmeon-info .pokemon-name{
